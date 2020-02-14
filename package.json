@@ -1,0 +1,14 @@
+{
+  "name": "visual-regression-test",
+  "version": "1.0.0",
+  "description": "visual-regression-test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "author": "John Pourdanis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
