@@ -1,6 +1,7 @@
 # visual-regression-testing
 
 Here is a sample for visual regression testing . We used cypress for faster results, easy-to-use tooling and headless run!
+More info https://www.cypress.io/
 
 ### RUN TESTS
 
