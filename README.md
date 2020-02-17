@@ -16,3 +16,22 @@ Note that if you change the host variable on `test:actual` to 'http://localhost:
 
 Example: 
 ![Visual Reggression Deom](cypress-visual-regression.gif)
+
+### Added Applitools implementation
+
+One of the most famous tools for visual regression testing using AI is applitools https://applitools.com/!
+
+1. Run `npm start` to a thread to run the node server.
+2. You should set your apikey on `applitools.config.js`. Example
+```js
+module.exports = {
+  apiKey: 'YOUR_API_KEY',
+  ...
+}
+```
+3. Run to another thread on comand line `npm run applitools:base`
+4. Run `npm run applitools:actual`
+
+You should see something like this on the platform :
+
+![Applitools Reggression Demo](applitools-result.png)
