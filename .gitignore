@@ -1,4 +1,5 @@
 node_modules
 .tmp
 debug.log
-.
+cypress/videos
+cypress/snapshots

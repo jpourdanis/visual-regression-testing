@@ -4,11 +4,18 @@
   "description": "visual-regression-test",
   "main": "index.js",
   "scripts": {
-    "start": "node ./server.js"
+    "start": "node server.js",
+    "cypress:open": "cypress open",
+    "test:base": "./node_modules/.bin/cypress run --env type=base --config screenshotsFolder=cypress/snapshots/base",
+    "test:actual": "./node_modules/.bin/cypress run --env type=actual"
   },
   "author": "John Pourdanis",
   "license": "ISC",
   "dependencies": {
+    "cypress-visual-regression": "^1.0.5",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cypress": "^4.0.2"
   }
 }
