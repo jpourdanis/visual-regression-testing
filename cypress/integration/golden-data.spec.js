@@ -4,12 +4,11 @@ describe('Golden Data', function() {
         cy.visit(Cypress.env('host'))
     })
 
-
-   // it('Visual Regression Test', function() {
+    it('Visual Regression Test', function() {
       
       //We can set option the error threshold : Value can range from 0.00 (no difference) to 1.00 (every pixel is different)
-    //  cy.compareSnapshot('full-page-snapshot', 0.1);
-   // })
+      cy.compareSnapshot('full-page-snapshot', 0.1);
+    })
 
     it('Specific cell with changed color', function() {
       
@@ -29,5 +28,4 @@ describe('Golden Data', function() {
 
     })
     
-
   })
