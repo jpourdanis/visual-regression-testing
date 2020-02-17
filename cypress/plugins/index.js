@@ -18,3 +18,6 @@ const getCompareSnapshotsPlugin = require('cypress-visual-regression/dist/plugin
 module.exports = (on) => {
   getCompareSnapshotsPlugin(on);
 };
+
+
+require('@applitools/eyes-cypress')(module);
