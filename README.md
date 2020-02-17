@@ -10,3 +10,5 @@ Here is a sample for visual regression testing . We used cypress for faster resu
 4. Run 'npm run test:actual'
 
 * All results are under [cypress/snapshots] folder
+
+Note that if you change the host variable on 'test:actual' to 'http://localhost:8081/' all tests should pass.
