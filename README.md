@@ -13,3 +13,6 @@ More info https://www.cypress.io/
 * All results are under [cypress/snapshots] folder
 
 Note that if you change the host variable on `test:actual` to 'http://localhost:8081/' all tests should pass.
+
+Example: 
+![Visual Reggression Deom](cypress-visual-regression.gif)
