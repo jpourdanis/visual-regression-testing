@@ -19,7 +19,7 @@ Example:
 
 ### Added Applitools implementation
 
-One of the most famous tools for visual regression testing using AI is applitools https://applitools.com/!
+One of the most famous tools for visual regression testing that use AI is Applitools https://applitools.com/!
 
 1. Run `npm start` to a thread to run the node server.
 2. You should set your apikey on `applitools.config.js`. Example
