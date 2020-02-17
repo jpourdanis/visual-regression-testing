@@ -6,9 +6,9 @@ More info https://www.cypress.io/
 ### RUN TESTS
 
 1. Run `npm install`
-2. Run `npm start` to a thread to run the node server.
-3. Run to another thread on comand line `npm run test:base`
-4. Run `npm run test:actual`
+2. Run `npm start` to a thread to start the node server.
+3. Run to another thread on command line `npm run test:base`
+4. Run `npm run test:actual` 
 
 * All results are under [cypress/snapshots] folder
 
@@ -19,7 +19,7 @@ Example:
 
 ### Added Applitools implementation
 
-One of the most famous tools for visual regression testing using AI is applitools https://applitools.com/!
+One of the most famous tools for visual regression testing that use AI is Applitools https://applitools.com/!
 
 1. Run `npm start` to a thread to run the node server.
 2. You should set your apikey on `applitools.config.js`. Example
@@ -29,7 +29,7 @@ module.exports = {
   ...
 }
 ```
-3. Run to another thread on comand line `npm run applitools:base`
+3. Run to another thread on command line `npm run applitools:base`
 4. Run `npm run applitools:actual`
 
 You should see something like this on the platform :
