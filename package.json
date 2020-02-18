@@ -6,10 +6,10 @@
   "scripts": {
     "start": "node server.js",
     "cypress:open": "cypress open",
-    "test:base": "./node_modules/.bin/cypress run --env type=base,host=http://localhost:8081/ --config screenshotsFolder=cypress/snapshots/base,testFiles=\"**/*data.spec.js",
-    "test:actual": "./node_modules/.bin/cypress run --env type=actual,host=http://localhost:8081/vrtest --config testFiles=\"**/*data.spec.js",
-    "applitools:base" : "./node_modules/.bin/cypress run --env type=base,host=http://localhost:8081/applitools-base --config testFiles=\"**/*applitools.spec.js",
-    "applitools:actual" : "./node_modules/.bin/cypress run --env type=base,host=http://localhost:8081/applitools-actual --config testFiles=\"**/*applitools.spec.js"
+    "test:base": "./node_modules/.bin/cypress run --env type=base,host=http://localhost:8081/ --config screenshotsFolder=cypress/snapshots/base,testFiles=\"**/*data.spec.js\"",
+    "test:actual": "./node_modules/.bin/cypress run --env type=actual,host=http://localhost:8081/vrtest --config testFiles=\"**/*data.spec.js\"",
+    "applitools:base" : "./node_modules/.bin/cypress run --env type=base,host=http://localhost:8081/applitools-base --config testFiles=\"**/*applitools.spec.js\"",
+    "applitools:actual" : "./node_modules/.bin/cypress run --env type=base,host=http://localhost:8081/applitools-actual --config testFiles=\"**/*applitools.spec.js\""
   },
   "author": "John Pourdanis",
   "license": "ISC",
