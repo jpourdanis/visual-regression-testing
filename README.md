@@ -11,6 +11,7 @@ More info https://www.cypress.io/
 4. Run `npm run test:actual` 
 
 * All results are under [cypress/snapshots] folder
+* Video of test run is under [cypress/video] folder
 
 Note that if you change the host variable on `test:actual` to 'http://localhost:8081/' all tests should pass.
 
