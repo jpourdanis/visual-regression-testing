@@ -14,7 +14,7 @@
   "author": "John Pourdanis",
   "license": "ISC",
   "dependencies": {
-    "cypress-visual-regression": "^1.0.5",
+    "cypress-visual-regression": "^1.7.0",
     "express": "^4.17.3"
   },
   "devDependencies": {
